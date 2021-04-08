@@ -105,6 +105,7 @@
 import React from "react";
 
 import Stats from "../_Component/Stats";
+import DesignedForYou from "../_Component/DesignedForYou";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -116,6 +117,7 @@ class StartApp extends React.Component {
     return (
       <div className="startName">
         <Stats />
+        <DesignedForYou />
       </div>
     );
   }

@@ -1,8 +1,9 @@
 .Main {
     width: 100%;
-    height: 280px;
+    height: 300px;
     background-color: white;
     padding: 5px;
+    padding-bottom: 10px;
     padding-left: 350px;
     border-style: solid;
     border-bottom-color: rgb(231, 231, 231);
@@ -30,7 +31,7 @@
 .Facts {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(141, 141, 141);
-    font-size: 25px;
+    font-size: 27px;
     font-weight: lighter;
     padding-top: 20px;
 }
@@ -66,7 +67,7 @@ li {
     position: relative;
     width:18%; 
     height: auto;
-    padding-top: 110px;
+    padding-top: 120px;
 }
 
 .shadow {
@@ -75,6 +76,6 @@ li {
     height: auto;
     padding-top: 90px;
     opacity: 10%;
-    right: 390px;
-    bottom: 470px;
+    right: 355px;
+    bottom: 460px;
 }

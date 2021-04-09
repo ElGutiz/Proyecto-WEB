@@ -17,7 +17,7 @@ class DesignedForYou extends React.Component {
           <h2>Designed for You.</h2>
         </div>
         <div className="Facts">
-          <ul>
+          <ul className="Facts_list">
             <li> Roll it out and instantly park</li>
             <li> Re-use it on multiple sites</li>
             <li> Event Parking, Overflow, Vehicle Storage</li>

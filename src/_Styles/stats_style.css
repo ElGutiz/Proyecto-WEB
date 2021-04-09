@@ -21,6 +21,7 @@
     float: left;
     width: 8%;
     padding-right: 80px;
+    height: auto;
 }
 
 ._1-stat, ._2-stat, ._3-stat, ._4-stat {
@@ -45,6 +46,8 @@
     font-weight: 500;
     margin-top: 0;
     padding-top: 0;
+    width: auto;
+    height: auto;
 }
 
 .description-1 {
@@ -55,6 +58,8 @@
     text-align: right;
     margin-top: 0;
     padding-top: 0;
+    width: auto;
+    height: auto;
 }
 
 ._1-stat:before {

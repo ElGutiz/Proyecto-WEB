@@ -20,37 +20,39 @@ class CarsParked extends React.Component {
   render() {
     return (
       <div className="Main1">
-        <div className="Title_1">
-          <h2 className="Title_1_1">Over 1 million cars parked </h2>
-          <ul className="logo_list">
-            <li>
-              <img className="logos_1" src={logo1} alt="logo1" width="55" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo2} alt="logo2" width="47" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo3} alt="logo3" width="122" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo4} alt="logo4" width="53" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo5} alt="logo5" width="106" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo6} alt="logo6" width="26" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo7} alt="logo7" width="100" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo8} alt="logo8" width="53" />
-            </li>
-            <li>
-              <img className="logos_1" src={logo9} alt="logo9" width="126" />
-            </li>
-          </ul>
+        <div className="Mainn3">
+          <div className="Title_1">
+            <h2 className="Title_1_1">Over 1 million cars parked </h2>
+            <ul className="logo_list">
+              <li>
+                <img className="logos_1" src={logo1} alt="logo1" width="55" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo2} alt="logo2" width="47" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo3} alt="logo3" width="122" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo4} alt="logo4" width="53" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo5} alt="logo5" width="106" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo6} alt="logo6" width="26" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo7} alt="logo7" width="100" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo8} alt="logo8" width="53" />
+              </li>
+              <li>
+                <img className="logos_1" src={logo9} alt="logo9" width="126" />
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     );

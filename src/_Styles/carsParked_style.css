@@ -2,8 +2,11 @@
     width: 100%;
     height: 250px;
     background-color: white;
-    padding-left: 350px;
     padding-top: 10px;
+}
+
+.Mainn3 {
+    margin-left: 350px;
 }
 
 .Title_1_1 {

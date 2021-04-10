@@ -1,0 +1,49 @@
+.patent_map {
+    width: 100%;
+    height: 500px;
+    padding-top: 10px;
+    background-color: #2ecc78;
+}
+
+.patent_map_main {
+    width: 750px;
+    margin-left: 40%;
+}
+
+.patent_map_title {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.patent_map_title::after {
+    content: "No. 6,361,245B1";
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    white-space: pre;
+}
+
+.patent_map_info {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+    opacity: 50%;
+    text-align: justify;
+    padding-right: 150px;
+}
+
+.patent_list {
+    padding-left: 0px;
+}
+
+.patent_list li {
+    display:inline-block;
+    width: 150px;
+    padding-right: 50px;
+    margin: 0px;
+}
+
+.patent_desc {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+    font-size: 15px;
+}

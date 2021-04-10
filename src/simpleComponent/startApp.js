@@ -108,6 +108,7 @@ import Stats from "../_Component/Stats";
 import DesignedForYou from "../_Component/DesignedForYou";
 import CarsParked from "../_Component/CarsParked";
 import BigImageGallery from "../_Component/BigImage1";
+import PatentInfo from "../_Component/PatentInfo";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -122,6 +123,7 @@ class StartApp extends React.Component {
         <DesignedForYou />
         <CarsParked />
         <BigImageGallery />
+        <PatentInfo />
       </div>
     );
   }

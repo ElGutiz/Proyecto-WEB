@@ -3,6 +3,10 @@
     height: 1390px;
     background-color: white;
     border-bottom-color: rgb(231, 231, 231);
+    border-style: solid;
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
 }
 
 .Main_Big_Images_r {

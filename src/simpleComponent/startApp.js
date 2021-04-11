@@ -111,6 +111,7 @@ import BigImageGallery from "../_Component/BigImage1";
 import PatentInfo from "../_Component/PatentInfo";
 import PatentMap from "../_Component/patent_map";
 import CompanyButton from "../_Component/Company_button";
+import Expect from "../_Component/Expect";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -128,6 +129,7 @@ class StartApp extends React.Component {
         <PatentInfo />
         <PatentMap />
         <CompanyButton />
+        <Expect />
       </div>
     );
   }

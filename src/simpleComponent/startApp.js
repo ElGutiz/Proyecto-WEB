@@ -112,6 +112,7 @@ import PatentInfo from "../_Component/PatentInfo";
 import PatentMap from "../_Component/patent_map";
 import CompanyButton from "../_Component/Company_button";
 import Expect from "../_Component/Expect";
+import TableInfo from "../_Component/Table_info";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -130,6 +131,7 @@ class StartApp extends React.Component {
         <PatentMap />
         <CompanyButton />
         <Expect />
+        <TableInfo />
       </div>
     );
   }

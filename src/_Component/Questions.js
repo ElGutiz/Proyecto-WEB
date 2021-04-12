@@ -2,7 +2,7 @@ import React from "react";
 
 import "../_Styles/Questions_style.css";
 
-class Tailored extends React.Component {
+class Questions extends React.Component {
   constructor(props) {
     super(props);
     this.props = props;
@@ -33,4 +33,4 @@ class Tailored extends React.Component {
   }
 }
 
-export default Tailored;
+export default Questions;

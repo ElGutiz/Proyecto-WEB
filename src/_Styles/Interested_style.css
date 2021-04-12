@@ -1,0 +1,61 @@
+.Main10 {
+    width: 100%;
+    height: 310px;
+    background-color: rgb(240, 240, 240);
+    padding-top: 5px;
+    border-style: solid;
+    border-bottom-color: rgb(110, 110, 110);
+    border-top: none;
+    border-left: none;
+    border-width: 1px;
+}
+
+.Mainn10 {
+    margin-left: 350px;
+    width: 690px;
+    display: inline-block;
+}
+
+.Title_10 {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 36px;
+}
+
+.info_10 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    font-size: 30px;
+    color: rgb(141, 141, 141);
+}
+
+.Specifications_button {
+    border:none;
+    background-color: rgb(240, 240, 240);
+}
+
+.Specifications_button_text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    transition: 0s;
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.Specifications_button_text::after {
+    content: " \f178";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    padding-right: 10px;
+    font-size: 20px;
+    color: black;
+    white-space: pre;
+}
+
+.Specifications_button_text:hover:after {
+    content: "   \f178";
+    white-space: pre;
+    transition-delay: 6s;
+}

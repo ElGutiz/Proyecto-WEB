@@ -114,6 +114,7 @@ import CompanyButton from "../_Component/Company_button";
 import Expect from "../_Component/Expect";
 import TableInfo from "../_Component/Table_info";
 import Tailored from "../_Component/Tailored";
+import Interested from "../_Component/Interested";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -134,6 +135,7 @@ class StartApp extends React.Component {
         <Expect />
         <TableInfo />
         <Tailored />
+        <Interested />
       </div>
     );
   }

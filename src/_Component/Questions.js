@@ -13,15 +13,15 @@ class Questions extends React.Component {
       <div className="Main11">
         <div className="Mainn11">
           <ul className="questions_items_list">
-            <li>
+            <li className="fix_n">
               <h1 className="Mainn11_title">Got questions?</h1>
             </li>
-            <li>
+            <li className="fix_n">
               <button type="button" className="question_button_1">
                 <p className="question_button_text_1"> Ask your Manager</p>
               </button>
             </li>
-            <li>
+            <li className="fix_">
               <button type="button" className="question_button_1">
                 <p className="question_button_text_2"> Read FAQ</p>
               </button>

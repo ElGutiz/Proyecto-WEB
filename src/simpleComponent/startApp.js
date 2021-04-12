@@ -117,6 +117,7 @@ import Tailored from "../_Component/Tailored";
 import Interested from "../_Component/Interested";
 import Questions from "../_Component/Questions";
 import Request from "../_Component/Request";
+import BottomP from "../_Component/Bottom_page";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -140,6 +141,7 @@ class StartApp extends React.Component {
         <Interested />
         <Questions />
         <Request />
+        <BottomP />
       </div>
     );
   }

@@ -1,0 +1,77 @@
+.Main13 {
+    width: 100%;
+    height: 170px;
+    background-color: white;
+    padding-top: 10px;
+}
+
+.Mainn13 {
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.Mainn13::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.Mainn13_1, .Mainn13_2, .Mainn13_3 {
+    float: left;
+    width: 33.33%;
+}
+
+.Mainn13_1 {
+    text-align: left;
+}
+
+.Mainn13_1_text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Mainn13_1_text::after {
+    content: "\A 13700 Providence Road, Suite 200 \A Weddington, NC 28104";
+    white-space: pre;
+    color: rgb(168, 167, 167);
+    font-weight: lighter;
+}
+
+.Mainn13_1_text::before {
+    content: url("../_Source/logo.svg");
+}
+
+.Mainn13_2 {
+    text-align: center;
+}
+
+.Mainn13_2_text {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.Mainn13_3 {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.Mainn13_3_list {
+    padding-left: 0px;
+    padding-top: 20px;
+    margin-top: 10px;
+}
+
+.Mainn13_3_list li {
+    display:inline;
+    padding-right:10px;
+    color: rgb(170, 170, 170);
+}
+
+.Mainn13_3_text {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(192, 192, 192);
+    font-size: 11px;
+    margin-top: 15px;
+}

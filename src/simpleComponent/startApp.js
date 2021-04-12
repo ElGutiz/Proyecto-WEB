@@ -116,6 +116,7 @@ import TableInfo from "../_Component/Table_info";
 import Tailored from "../_Component/Tailored";
 import Interested from "../_Component/Interested";
 import Questions from "../_Component/Questions";
+import Request from "../_Component/Request";
 
 class StartApp extends React.Component {
   constructor(props) {
@@ -138,6 +139,7 @@ class StartApp extends React.Component {
         <Tailored />
         <Interested />
         <Questions />
+        <Request />
       </div>
     );
   }

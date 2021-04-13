@@ -65,7 +65,6 @@
 .Installation_process_button_text:hover:after {
     content: "   \f178";
     white-space: pre;
-    transition-delay: 6s;
 }
 
 .worker_image {

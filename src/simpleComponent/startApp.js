@@ -104,6 +104,7 @@
 
 import React from "react";
 
+import MainPage from "../_Component/MainPage";
 import Stats from "../_Component/Stats";
 import DesignedForYou from "../_Component/DesignedForYou";
 import CarsParked from "../_Component/CarsParked";
@@ -128,6 +129,7 @@ class StartApp extends React.Component {
   render() {
     return (
       <div className="startName">
+        <MainPage />
         <Stats />
         <DesignedForYou />
         <CarsParked />

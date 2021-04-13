@@ -26,7 +26,7 @@
     text-align: center;
 }
 
-.tailored_icons_list img:hover {
+.tailored_icons_list li img:hover {
     outline: 2px solid rgb(110, 175, 236);
     outline-offset: 3px;
     outline-width: 50%;

@@ -36,8 +36,8 @@ class BigImageGallery extends React.Component {
             <img className="Big_Image" src={bigimage3} alt="big_image_1" width="930" height="680" />
           </div>
           <div className="Main_Big_Paragraph">
-            <Fade bottom when={!visibility} distance="10%" duration={500}>
-              <div className="Big_Paragraph_1">
+            <div className="Big_Paragraph_1">
+              <Fade bottom when={!visibility} distance="50%">
                 <h1 className="Information_gallery">
                   Rollpark has saved Ford Motor
                   <br />
@@ -58,10 +58,14 @@ class BigImageGallery extends React.Component {
                   in the past
                   {" "}
                 </p>
+              </Fade>
+              <Fade bottom when={!visibility} delay={750}>
                 <p className="portrait_info">Dean Anos</p>
+              </Fade>
+              <Fade bottom when={!visibility} delay={500}>
                 <img className="portrait_dean" src={deanportrait} alt="deanP" width="40" />
-              </div>
-            </Fade>
+              </Fade>
+            </div>
           </div>
         </div>
       </VisibilitySensor>

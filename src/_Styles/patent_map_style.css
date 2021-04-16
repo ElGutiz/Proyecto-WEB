@@ -7,7 +7,7 @@
 
 .patent_map_main {
     width: 750px;
-    margin-left: 40%;
+    margin-left: 35%;
 }
 
 .patent_map_title {
@@ -26,7 +26,6 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     font-size: 30px;
-    opacity: 50%;
     text-align: justify;
     padding-right: 150px;
 }
@@ -46,4 +45,8 @@
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: lighter;
     font-size: 15px;
+}
+
+.patent_map_p, .patent_desc {
+    filter: opacity(50%);
 }

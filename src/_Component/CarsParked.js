@@ -36,7 +36,7 @@ class CarsParked extends React.Component {
               <Fade bottom when={!visibility} distance="50%">
                 <h2 className="Title_1_1">Over 1 million cars parked </h2>
               </Fade>
-              <Fade bottom when={!visibility} distance="30%">
+              <Fade bottom when={!visibility} distance="70%">
                 <ul className="logo_list">
                   <Fade bottom cascade when={!visibility}>
                     <li>

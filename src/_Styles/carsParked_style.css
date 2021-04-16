@@ -37,5 +37,5 @@
 }
 
 .logos_1 {
-    opacity: 40%;
+    filter: opacity(40%);
 }

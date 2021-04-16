@@ -24,7 +24,7 @@ class DesignedForYou extends React.Component {
             this.setState({ visibility: isVisible });
           }}
         >
-          <div className="Mainn2" style={{ opacity: visibility ? 0 : 1 }}>
+          <div className="Mainn2">
             <Fade bottom when={!visibility} distance="50%">
               <div className="main_title">
                 <h2>Designed for You.</h2>

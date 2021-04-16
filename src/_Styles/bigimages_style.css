@@ -11,20 +11,22 @@
 
 .Main_Big_Images_r {
     float: left;
-    width: auto;
-    height: auto;
-    padding-left: 10px;
-    padding-bottom: 2px;
+    width: 930px;
+    height: 680px;
+    margin-left: 10px;
+    margin-bottom: 10px;
     background-color: white;
+    overflow: hidden;
 }
 
 .Main_Big_Images_l, .Main_Big_Paragraph {
     float: right;
-    width: auto;
-    height: auto;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    width: 930px;
+    height: 680px;
+    margin-right: 10px;
+    margin-bottom: 10px;
     background-color: white;
+    overflow: hidden;
 }
 
 .Main_Big_Paragraph {
@@ -92,4 +94,16 @@
     font-weight: lighter;
     white-space: pre;
     color: rgb(173, 173, 173);
+}
+
+.Main_Big_Images_r img, .Main_Big_Images_l img {
+    transition: 3s all ease-in-out;
+}
+
+.Main_Big_Images_r:hover img, .Main_Big_Images_l:hover img  {
+    transform: scale(1.1);
+}
+
+.Main_Big_Images_r:hover, .Main_Big_Images_l:hover {
+    filter: brightness(0.5);
 }

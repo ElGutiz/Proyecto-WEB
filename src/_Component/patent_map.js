@@ -37,7 +37,7 @@ class PatentMap extends React.Component {
                   It’s also unaffected by hydrocarbons, mildew, rot and the freeze and thaw cycle.
                 </p>
               </Fade>
-              <Fade bottom cascade when={!visibility} distance="40%" duration={500}>
+              <Fade bottom cascade when={!visibility} distance="50%" duration={400}>
                 <ul className="patent_list">
                   <li>
                     <img className="patent_1" src={logo1} alt="logo1" width="53" />

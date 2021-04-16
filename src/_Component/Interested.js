@@ -21,7 +21,7 @@ class Interested extends React.Component {
           this.setState({ visibility: isVisible });
         }}
       >
-        <div className="Main10" style={{ backgroundColor: visibility ? "white" : "rgb(240, 240, 240)" }}>
+        <div className="Main10" style={{ backgroundColor: visibility ? "white" : "rgb(240, 240, 240)", transition: visibility ? 0 : "background-color 2s ease-out" }}>
           <Fade bottom when={!visibility} distance="30%">
             <div className="Mainn10">
               <h2 className="Title_10">Interested in product specifications?</h2>

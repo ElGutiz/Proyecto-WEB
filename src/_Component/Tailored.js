@@ -23,7 +23,7 @@ class Tailored extends React.Component {
       <div className="Main8">
         <VisibilitySensor
           partialVisibility="top"
-          offset={{ top: 700 }}
+          offset={{ top: 750 }}
           onChange={(isVisible) => {
             this.setState({ visibility: isVisible });
           }}

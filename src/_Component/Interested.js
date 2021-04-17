@@ -19,7 +19,7 @@ class Interested extends React.Component {
     return (
       <VisibilitySensor
         partialVisibility="top"
-        offset={{ top: 800 }}
+        offset={{ top: 900 }}
         onChange={(isVisible) => {
           this.setState({ visibility: isVisible });
         }}

@@ -17,7 +17,7 @@ class TableInfo extends React.Component {
       <div className="Main7">
         <VisibilitySensor
           partialVisibility="top"
-          offset={{ top: 400 }}
+          offset={{ top: 450 }}
           onChange={(isVisible) => {
             this.setState({ visibility: isVisible });
           }}

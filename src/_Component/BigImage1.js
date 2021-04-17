@@ -28,12 +28,15 @@ class BigImageGallery extends React.Component {
         <div className="responsive1">
           <div className="Main_Big_Images_r">
             <img className="Big_Image" src={bigimage1} alt="big_image_1" width="930" height="680" />
+            <button type="button" className="prueba_boton"><p className="prueba_text">See Cases Studies</p></button>
           </div>
           <div className="Main_Big_Images_l">
             <img className="Big_Image" src={bigimage2} alt="big_image_1" width="930" height="680" />
+            <button type="button" className="prueba_boton_l"><p className="prueba_text">See Cases Studies</p></button>
           </div>
           <div className="Main_Big_Images_r">
             <img className="Big_Image" src={bigimage3} alt="big_image_1" width="930" height="680" />
+            <button type="button" className="prueba_boton"><p className="prueba_text">See Cases Studies</p></button>
           </div>
           <div className="Main_Big_Paragraph">
             <div className="Big_Paragraph_1">

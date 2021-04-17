@@ -3,6 +3,9 @@ import Fade from "react-reveal/Fade";
 import VisibilitySensor from "react-visibility-sensor";
 
 import "../_Styles/Interested_style.css";
+import layer1 from "../_Source/spec-layer-1.png";
+import layer2 from "../_Source/spec-layer-2.png";
+import layer3 from "../_Source/spec-layer-3.png";
 
 class Interested extends React.Component {
   constructor(props) {
@@ -31,6 +34,13 @@ class Interested extends React.Component {
               </button>
             </div>
           </Fade>
+          <div className="image_row">
+            <div className="image_column">
+              <img className="interested_layer layer_3" src={layer3} alt="layer3" style={{ transform: visibility ? "translateY(-110px)" : "translateY(50px)", transition: visibility ? 0 : "transform 1s ease" }} />
+              <img className="interested_layer layer_2" src={layer2} alt="layer2" style={{ transform: visibility ? "translateY(-310px)" : "translateY(-230px)", transition: visibility ? 0 : "transform 1s ease" }} />
+              <img className="interested_layer layer_1" src={layer1} alt="layer1" />
+            </div>
+          </div>
         </div>
       </VisibilitySensor>
     );

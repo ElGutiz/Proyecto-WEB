@@ -58,3 +58,34 @@
     white-space: pre;
     transition-delay: 6s;
 }
+
+.interested_layer {
+    width: 400px;
+}
+
+.image_row {
+    position: absolute;
+    left: 60%;
+    height: auto;
+    width: auto;
+    transform: translate(0, -200px);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    background-color: blueviolet;
+    height: 100px;
+}
+
+.image_column {
+    flex: 100%;
+    width: 100%;
+    padding: 0 4px;
+}
+
+.image_column img {
+    display: block
+}
+
+.layer_1 {
+    transform: translateY(-520px);
+}

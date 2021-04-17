@@ -13,6 +13,7 @@ class MainPage extends React.Component {
     return (
       <div className="Main_Page_1">
         <div className="Main_Page_2">
+          <button className="message_button" type="button"><i className="fa fa-comment" aria-label="Mute volume" /></button>
           <video autoPlay height="816" muted loop>
             <source src={video1} type="video/mp4" />
             <track kind="true" />

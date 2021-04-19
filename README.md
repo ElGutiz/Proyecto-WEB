@@ -181,7 +181,11 @@ Este paquete sirve para saber cuando un componente esta "siendo visto", en otras
 ```bash
 npm i react-visibility-sensor
 ```
-Se puede encontrar todos los props y un ejemplos en el [repositorio del creador](https://github.com/joshwnj/react-visibility-sensor#readme).
+Y se implementa en el componente (archivo js o jsx) de esta manera:
+```js
+import VisibilitySensor from "react-visibility-sensor";
+```
+Se puede encontrar todos los props y un ejemplo en el [repositorio del creador](https://github.com/joshwnj/react-visibility-sensor#readme).
 
 # Creditos
 Creditos a los creadores de los plugins y paquetes usados en este proyecto, adicionalmente el uso del carrusel de palabras de Akash [aqui](https://codepen.io/antivirusakash/pen/gBKWog)

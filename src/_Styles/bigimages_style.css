@@ -108,12 +108,12 @@
 .prueba_boton {
     position: absolute;
     transform: translate(-240px, 600px);
-    height: 60px;
+    height: 50px;
     width: 220px;
     background-color: rgb(236, 165, 60);
     border-color: transparent;
-    margin: 4px 2px;
-    padding: 15px 20px;
+    margin: 0px 0px;
+    padding: 1px 20px;
     border-radius: 32px;
     transition: all 0.7s !important;
     opacity: 0;
@@ -157,12 +157,12 @@
 .prueba_boton_l {
     position: absolute;
     transform: translate(-240px, 600px);
-    height: 60px;
+    height: 50px;
     width: 220px;
     background-color: rgb(236, 165, 60);
     border-color: transparent;
-    margin: 4px 2px;
-    padding: 15px 20px;
+    margin: 0px 0px;
+    padding: 1px 20px;
     border-radius: 32px;
     transition: all 0.7s !important;
     opacity: 0;
